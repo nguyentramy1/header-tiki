@@ -1,0 +1,251 @@
+#main-head{
+    display: flex;
+    gap: 48px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: 10px;
+    font-family: 'Arial', sans-serif;
+    width: 1440px;
+
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    
+}
+.logo span{
+    font-size: 14px;
+    color: rgb(0, 62, 161);
+    margin-top: 8px;
+    font-weight: 600;
+    text-align: center
+}
+.sub-head{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 0px;
+
+}
+.under{
+    display: flex;
+    height: auto;
+    position: relative;
+    padding-left: 10px;
+
+}
+.search{
+    width: 100%;
+    display: flex;
+    position: relative;
+    border: 1px solid rgb(221, 221, 227);
+    border-radius: 8px;
+    align-items: center;
+
+}
+.search .icon-search{
+    width: 20px;
+    height: 20px;
+    margin: 0px 0px 0px 18px;
+}
+
+.search input{
+    border: 0px;
+    padding: 0px 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    flex: 1 1 0;
+}
+
+.search button{
+    border: 0px;
+    width: 92px;
+    height: 38px;
+    padding: 4px;
+    background: transparent;
+    color: rgb(10, 104, 255);
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.search button::before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 1px solid rgb(221, 221, 227);
+    height: 24px;
+    left: 0px;
+    top: 8px;
+}
+
+.header-icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 48px;
+   
+}
+
+.home-head, .account-head, .cart-head {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    position: relative;
+    white-space: nowrap;
+}
+
+.home-head img, .account-head img, .cart-head img {
+    margin-right: 8px; 
+    width: 24px;
+    height: 24px;
+}
+
+.home-head a, .account-head span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.account-head span {
+    color: rgb(128, 128, 137);
+}
+
+.home-head a {
+    color: rgb(10, 104, 255); 
+}
+
+.cart-head {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 24px;
+    position: relative;
+    padding: 0px !important;
+}
+.cart-head::before {
+    content: "";
+    display: block;
+    height: 20px;
+    position: absolute;
+    left: -12px;
+    border: 1px solid rgb(235, 235, 240);
+}
+.cart-head img {
+    width: 24px;
+    height: 24px;
+}
+.cart-wrapper{
+    position: relative;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.cart-number{
+    color: rgb(255, 255, 255);
+    background: rgb(255, 66, 79);
+    height: 16px;
+    right: 0px;
+    top: -4px;
+    border-radius: 8px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 150%;
+    position: absolute;
+    padding: 0.5px 4px;
+}
+
+
+.bottom{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.quicklink{
+    display: flex;
+    height: 24px;
+    padding-left: 10px;
+    gap: 12px;
+}
+.quicklink a{
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: rgb(128, 128, 137);
+    white-space: nowrap;
+    text-decoration: none;
+}
+.location{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.location img{
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+.location .title{
+    margin: 0px;
+    display: block;
+    color: rgb(128, 128, 137);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    padding-right: 4px;
+}
+.location .address{
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(39, 39, 42);
+}
+.commit{
+    display: flex;
+    position: relative;
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: rgb(235, 235, 240);
+    height: 40px;
+    padding-left: 24px;
+}
+.commit span{
+    display: flex;
+    font-size: 14px;
+    color: rgb(0, 62, 161);
+    font-weight: 600;
+    white-space:nowrap;
+    align-items: center;
+    padding-right: 12px;
+
+}
+.sub-commit{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.sub-commit-item{
+    display: flex;
+    gap: 3px;
+    white-space:nowrap;
+    padding-inline:6px ;
+}
+.sub-commit-item-text{
+    color:#27272A;
+    font-size:12px;
+    font-weight:500;
+
+}
